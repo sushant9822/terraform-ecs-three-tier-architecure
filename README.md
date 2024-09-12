@@ -38,5 +38,26 @@ cd your-repo
 ```
 ### Configuration
 1. Update Variables:
+   Navigate to specific directory example: ECS, RDS, ALB, VPC etc
    Edit terraform.tfvars or use environment variables to set the required values for your setup.
+   
+3. Initialize Terraform:
+   ```bash
+    terraform init
+   ```
+4. Create Terraform workspace
+   ```bash
+   terraform workspace new <workspace name>
+   ```
+5. Plan the Infrastructure:
+   ```bash
+   terraform plan
+   ```
+6. Apply the Configuration:
+   ```bash
+   terraform apply
+   ```
+
+
+   
 
