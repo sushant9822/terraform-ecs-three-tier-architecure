@@ -6,7 +6,7 @@ This repository contains Terraform configurations for setting up a tiered archit
 
 ## Architecture Diagram
 
-![Architecture Diagram](path-to-your-architecture-image)
+![Architecture Diagram](https://github.com/sushant9822/terraform-ecs-three-tier-architecure/blob/main/images/three-tier.png)
 
 ## Directory Structure
 
